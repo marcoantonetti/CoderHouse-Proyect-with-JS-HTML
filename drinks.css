@@ -1,0 +1,37 @@
+                                                       .class1 {
+                                                           font-style: oblique;
+                                                           font-weight: 3000;
+                                                           color: black;
+                                                       }
+                                                       
+                                                       .botonesAdmin {
+                                                           color: black;
+                                                           background-color: coral;
+                                                       }
+                                                       
+                                                       .botonesClientes {
+                                                           background-color: darksalmon;
+                                                           color: black;
+                                                       }
+                                                       
+                                                       #checkout {
+                                                           background-color: green;
+                                                       }
+                                                       
+                                                       #btnBack {
+                                                           background-color: red;
+                                                       }
+                                                       
+                                                       .item:hover {
+                                                           transform: scale(1.2);
+                                                           box-shadow: 0 9px 47px 11px rgba(51, 51, 51, 0.18);
+                                                       }
+                                                       
+                                                       .itemCarrito:hover {
+                                                           transform: scale(1.2);
+                                                           box-shadow: 0 9px 47px 11px rgba(51, 51, 51, 0.18);
+                                                       }
+                                                       
+                                                       .item {
+                                                           list-style-type: square;
+                                                       }

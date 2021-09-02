@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="drinks.css">
+</head>
+<title>
+    DRINKS bebidas
+</title>
+
+<h1 id="h1">Drinks Bebidas</h1>
+
+<body id="body">
+    <p class="class1" id='p'> Sos Administrador o Cliente? </p>
+    <p class="class1" id='padmin' style="display:none;">Bienvenido Administrador!</p>
+    <p class="class1" id="pcliente" style="display:none;">Bievenido Cliente!</p>
+    <button class='botonesAdmin' id='adminbtn'>Admin</button>
+    <button class='botonesClientes' id='clientebtn'>Cliente</button>
+    <p class="class1"> Bebidas </p>
+    <div id="divLista" style="position:relative; left:80px; top:2px" ;>
+        <ul id='lista'>
+            <li class='item' id='gin bombai'>gin bombai $1900 Stock = 5</li>
+            <li class='item' id='fernet branca'>Fernet Branca $750 Stock = 5</li>
+            <li class='item' id='fernet 1882'>Fernet 1882 $450 Stock = 5</li>
+            <li class='item' id='gin beefeater'>Gin Beefeater $2150 Stock = 5</li>
+            <li class='item' id='smirnoff vodka'>Vodka Smirnoff $750 Stock = 5</li>
+
+        </ul>
+    </div>
+
+    <div id='divAdmin' style=" display: none; ">
+        <p>Admin: Ordenar o Agregar Productos</p>
+        <form action=" " id="formAgregar ">
+            <button class='botonesAdmin' id='agregarProductobtn'>Agregar Producto</button>
+            <input type='text' placeholder="nombre " id='agregarNombre'>
+            <input type='text' placeholder="tamano " id='agregarTamano'>
+            <input type='number' placeholder="precio " id='agregarPrecio'>
+            <input type='text' placeholder="tipo " id='agregarTipo'>
+            <input type='text' placeholder="ID " id='agregarID'>
+            <!--como hago para que quede en la misma linea con los otros?-->
+        </form>
+        <form action=" " id="formOrdenar ">
+            <button class='botonesAdmin' id='ordenarbtn'>Ordenar</button>
+            <input type='text' placeholder="Por precio, tipo o nombre " id='textoOrdenar'>
+        </form>
+
+    </div>
+
+    <div id='divCarrito' style='display:none;'>
+        <p>Carrito</p>
+        <form id='formCliente' action=" ">
+            <input type='text' placeholder="Bebida" id='bebida'>
+            <input type='number' placeholder='Cantidad' max="max del stock " id="cantidad">
+            <button class='botonesClientes' id='btncarrito'>Agregar al carrito</button>
+        </form>
+        <p> </p>
+        <button id="checkout">CHECKOUT</button>
+
+
+        <ol id='carritoOL'>
+
+        </ol>
+        <p id='total'></p>
+    </div>
+    <div id="back">
+        <button id="btnBack">Back</button>
+    </div>
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js " integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin=" anonymous "></script>
+    <script src="entregaFinal.js">
+        // un algoritmo es una intruccion que sera repetida n veces si es un for, o sera repetida indefinidamente hasta que la condicion se incumpla si es un while
+    </script>
+</body>
+
+</html>
